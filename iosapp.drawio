@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-08T14:08:21.074Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="xIrVauF03M3BXbdYnZll" version="15.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-08T14:08:36.321Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Un5Q_ymhUOfngPyNE3Ib" version="15.1.1" type="github" pages="2">
   <diagram id="PSjont7iVXn810zZjQgi" name="镇楼">
     <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,6 +13,14 @@
         <mxCell id="tVCqJA-RyDxuEfdYRcOk-2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#F9FAFA;" vertex="1" parent="tVCqJA-RyDxuEfdYRcOk-3">
           <mxGeometry x="181.15" width="600" height="200" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GiaCQMxud9IJZ74VrZqP" name="通信会议图标">
+    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="fsjgV5f9TpdKep78y1cL-0" />
+        <mxCell id="fsjgV5f9TpdKep78y1cL-1" parent="fsjgV5f9TpdKep78y1cL-0" />
       </root>
     </mxGraphModel>
   </diagram>
