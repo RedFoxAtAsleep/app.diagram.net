@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T05:10:34.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="p3zyQCI1bZWEPKxRwYm0" version="15.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-04T05:11:31.944Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="Y5tLxSoXVpPL8y4CVroC" version="15.4.3" type="github" pages="2">
   <diagram id="sL40cnhCUHc7l1gd73XX" name="Page-1">
     <mxGraphModel dx="1113" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -112,22 +112,22 @@
       <root>
         <mxCell id="2hDs4UFd2B2TN_htniy0-0" />
         <mxCell id="2hDs4UFd2B2TN_htniy0-1" parent="2hDs4UFd2B2TN_htniy0-0" />
-        <mxCell id="2hDs4UFd2B2TN_htniy0-2" value="SSH免密登陆" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;fontSize=16;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-1">
+        <mxCell id="2hDs4UFd2B2TN_htniy0-2" value="ssh免密登陆" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;fontSize=16;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-1">
           <mxGeometry x="40" y="40" width="900" height="420" as="geometry">
             <mxRectangle x="174" width="100" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-3" value="User" style="swimlane;startSize=20;fontSize=16;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-2">
+        <mxCell id="2hDs4UFd2B2TN_htniy0-3" value="you" style="swimlane;startSize=20;fontSize=16;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-2">
           <mxGeometry y="20" width="300" height="400" as="geometry">
             <mxRectangle y="20" width="30" height="650" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-9" value="Local Host" style="swimlane;startSize=20;fontSize=16;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-2">
+        <mxCell id="2hDs4UFd2B2TN_htniy0-9" value="ssh client" style="swimlane;startSize=20;fontSize=16;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-2">
           <mxGeometry x="300" y="20" width="300" height="400" as="geometry">
             <mxRectangle y="20" width="30" height="650" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-13" value="Remote Host" style="swimlane;startSize=20;fontSize=16;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-2">
+        <mxCell id="2hDs4UFd2B2TN_htniy0-13" value="ssh server" style="swimlane;startSize=20;fontSize=16;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-2">
           <mxGeometry x="600" y="20" width="300" height="400" as="geometry" />
         </mxCell>
         <mxCell id="046mSXJbvgH2jnutKGWy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;labelBorderColor=#000000;fontSize=16;fontColor=#000000;" edge="1" parent="2hDs4UFd2B2TN_htniy0-13" source="046mSXJbvgH2jnutKGWy-0" target="046mSXJbvgH2jnutKGWy-1">
@@ -136,7 +136,7 @@
         <mxCell id="046mSXJbvgH2jnutKGWy-0" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-13">
           <mxGeometry x="130" y="40" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="046mSXJbvgH2jnutKGWy-1" value="修改SSH参数" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-13">
+        <mxCell id="046mSXJbvgH2jnutKGWy-1" value="修改ssh server参数" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-13">
           <mxGeometry x="75" y="110" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2hDs4UFd2B2TN_htniy0-4" value="请求连接&lt;br&gt;$ ssh user@host" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-1">
