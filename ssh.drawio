@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T05:11:31.944Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="Y5tLxSoXVpPL8y4CVroC" version="15.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-04T05:24:35.915Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="b4lKFsHqGfPiWR_s9tQT" version="15.4.3" type="github">
   <diagram id="sL40cnhCUHc7l1gd73XX" name="Page-1">
-    <mxGraphModel dx="1113" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,121 +97,6 @@
         </mxCell>
         <mxCell id="VxjHLxav-VpCWbttAnZN-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;公钥/user/home/.ssh/id_rsa.pub&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;私钥/user/home/.ssh/&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;id_rsa&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="lCMnp1Lx_AAPGToCga8m-103">
           <mxGeometry x="20" y="260" width="260" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="lCMnp1Lx_AAPGToCga8m-118" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(17, 17, 17); font-family: georgia, serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: -0.1px; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 2px; background-color: rgb(245, 245, 213); display: inline; float: none;&quot;&gt;所谓&quot;公钥指纹&quot;，是指公钥长度较长（这里采用RSA算法，长达1024位），很难比对，所以对其进行MD5计算，将它变成一个128位的指纹。上例中是98:2e:d7:e0:de:9f:ac:67:28:c2:42:2d:37:16:58:4d，再进行比较，就容易多了。&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fontColor=#007FFF;" vertex="1" parent="1">
-          <mxGeometry x="80" y="600" width="550" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="lCMnp1Lx_AAPGToCga8m-119" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(17, 17, 17); font-family: georgia, serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: -0.1px; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 2px; background-color: rgb(245, 245, 213); display: inline; float: none;&quot;&gt;很自然的一个问题就是，用户怎么知道远程主机的公钥指纹应该是多少？回答是没有好办法，远程主机必须在自己的网站上贴出公钥指纹，以便用户自行核对。&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fontColor=#007FFF;" vertex="1" parent="1">
-          <mxGeometry x="80" y="710" width="550" height="80" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="_yoLdNOlCfVceN7bDE-4" name="Page-2">
-    <mxGraphModel dx="1113" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-0" />
-        <mxCell id="2hDs4UFd2B2TN_htniy0-1" parent="2hDs4UFd2B2TN_htniy0-0" />
-        <mxCell id="2hDs4UFd2B2TN_htniy0-2" value="ssh免密登陆" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;fontSize=16;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-1">
-          <mxGeometry x="40" y="40" width="900" height="420" as="geometry">
-            <mxRectangle x="174" width="100" height="20" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-3" value="you" style="swimlane;startSize=20;fontSize=16;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-2">
-          <mxGeometry y="20" width="300" height="400" as="geometry">
-            <mxRectangle y="20" width="30" height="650" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-9" value="ssh client" style="swimlane;startSize=20;fontSize=16;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-2">
-          <mxGeometry x="300" y="20" width="300" height="400" as="geometry">
-            <mxRectangle y="20" width="30" height="650" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-13" value="ssh server" style="swimlane;startSize=20;fontSize=16;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-2">
-          <mxGeometry x="600" y="20" width="300" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="046mSXJbvgH2jnutKGWy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;labelBorderColor=#000000;fontSize=16;fontColor=#000000;" edge="1" parent="2hDs4UFd2B2TN_htniy0-13" source="046mSXJbvgH2jnutKGWy-0" target="046mSXJbvgH2jnutKGWy-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="046mSXJbvgH2jnutKGWy-0" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-13">
-          <mxGeometry x="130" y="40" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="046mSXJbvgH2jnutKGWy-1" value="修改ssh server参数" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-13">
-          <mxGeometry x="75" y="110" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-4" value="请求连接&lt;br&gt;$ ssh user@host" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-1">
-          <mxGeometry x="89" y="530" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="2hDs4UFd2B2TN_htniy0-1" source="2hDs4UFd2B2TN_htniy0-6" target="2hDs4UFd2B2TN_htniy0-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-6" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-1">
-          <mxGeometry x="30" y="535" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-7" value="核对公钥指纹&lt;br&gt;$ yes/no" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-1">
-          <mxGeometry x="89" y="625" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-8" value="输入密码&lt;br&gt;$ *******" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-1">
-          <mxGeometry x="89" y="725" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-10" value="发送请求" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-1">
-          <mxGeometry x="389" y="530" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-11" value="存储公钥&lt;br&gt;～/.ssh/known_hosts" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-1">
-          <mxGeometry x="389" y="725" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-12" value="使用公钥R加密密码，发送密码密文" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-1">
-          <mxGeometry x="389" y="809" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="2hDs4UFd2B2TN_htniy0-1" source="2hDs4UFd2B2TN_htniy0-15" target="2hDs4UFd2B2TN_htniy0-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-15" value="接收请求" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-1">
-          <mxGeometry x="689" y="530" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-16" value="准备密钥&lt;br&gt;私钥/公钥/公钥指纹" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-1">
-          <mxGeometry x="689" y="625" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;labelBorderColor=#000000;fontSize=16;fontColor=#007FFF;" edge="1" parent="2hDs4UFd2B2TN_htniy0-1" source="2hDs4UFd2B2TN_htniy0-18" target="2hDs4UFd2B2TN_htniy0-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-18" value="接受密码密文，私钥解密" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-1">
-          <mxGeometry x="689" y="809" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-19" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="2hDs4UFd2B2TN_htniy0-1">
-          <mxGeometry x="860" y="814" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="2hDs4UFd2B2TN_htniy0-1" source="2hDs4UFd2B2TN_htniy0-10" target="2hDs4UFd2B2TN_htniy0-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-21" value="公钥R&amp;amp;公钥指纹R" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;labelBackgroundColor=default;labelBorderColor=#000000;" edge="1" parent="2hDs4UFd2B2TN_htniy0-1" source="2hDs4UFd2B2TN_htniy0-16" target="2hDs4UFd2B2TN_htniy0-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="539" y="645.0588235294118" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=16;" edge="1" parent="2hDs4UFd2B2TN_htniy0-1" source="2hDs4UFd2B2TN_htniy0-4" target="2hDs4UFd2B2TN_htniy0-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-23" value="确认是目标机器" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=16;" edge="1" parent="2hDs4UFd2B2TN_htniy0-1" source="2hDs4UFd2B2TN_htniy0-7" target="2hDs4UFd2B2TN_htniy0-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="164" y="700" />
-              <mxPoint x="464" y="700" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;labelBorderColor=#000000;fontSize=16;fontColor=#007FFF;" edge="1" parent="2hDs4UFd2B2TN_htniy0-1" source="2hDs4UFd2B2TN_htniy0-11" target="2hDs4UFd2B2TN_htniy0-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;labelBorderColor=#000000;fontSize=16;fontColor=#007FFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2hDs4UFd2B2TN_htniy0-1" source="2hDs4UFd2B2TN_htniy0-8" target="2hDs4UFd2B2TN_htniy0-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="164" y="834" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2hDs4UFd2B2TN_htniy0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;labelBorderColor=#000000;fontSize=16;fontColor=#007FFF;" edge="1" parent="2hDs4UFd2B2TN_htniy0-1" source="2hDs4UFd2B2TN_htniy0-12" target="2hDs4UFd2B2TN_htniy0-18">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
