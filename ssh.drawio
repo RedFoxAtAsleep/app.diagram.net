@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T04:33:11.769Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="dTXaWOJIoZ0b4qilsXRS" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-04T04:33:56.530Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="lOyMvdV2YTptdF00tePt" version="15.4.3" type="github">
   <diagram id="sL40cnhCUHc7l1gd73XX" name="Page-1">
     <mxGraphModel dx="1113" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,12 +37,6 @@
         <mxCell id="lCMnp1Lx_AAPGToCga8m-30" value="发送请求" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="lCMnp1Lx_AAPGToCga8m-22">
           <mxGeometry x="75" y="110" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lCMnp1Lx_AAPGToCga8m-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="lCMnp1Lx_AAPGToCga8m-22" source="lCMnp1Lx_AAPGToCga8m-31" target="lCMnp1Lx_AAPGToCga8m-30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lCMnp1Lx_AAPGToCga8m-31" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="lCMnp1Lx_AAPGToCga8m-22">
-          <mxGeometry x="130" y="40" width="40" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="lCMnp1Lx_AAPGToCga8m-41" value="存储公钥&lt;br&gt;～/.ssh/known_hosts" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="lCMnp1Lx_AAPGToCga8m-22">
           <mxGeometry x="75" y="330" width="150" height="50" as="geometry" />
         </mxCell>
@@ -61,14 +55,8 @@
         <mxCell id="lCMnp1Lx_AAPGToCga8m-35" value="准备密钥&lt;br&gt;私钥/公钥/公钥指纹" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="lCMnp1Lx_AAPGToCga8m-23">
           <mxGeometry x="75" y="205" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lCMnp1Lx_AAPGToCga8m-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;labelBorderColor=#000000;fontSize=16;fontColor=#007FFF;" edge="1" parent="lCMnp1Lx_AAPGToCga8m-23" source="lCMnp1Lx_AAPGToCga8m-81" target="lCMnp1Lx_AAPGToCga8m-83">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="lCMnp1Lx_AAPGToCga8m-81" value="接受密码密文，私钥解密" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="lCMnp1Lx_AAPGToCga8m-23">
           <mxGeometry x="75" y="440" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="lCMnp1Lx_AAPGToCga8m-83" value="校对" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="lCMnp1Lx_AAPGToCga8m-23">
-          <mxGeometry x="75" y="539" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lCMnp1Lx_AAPGToCga8m-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="lCMnp1Lx_AAPGToCga8m-21" source="lCMnp1Lx_AAPGToCga8m-30" target="lCMnp1Lx_AAPGToCga8m-33">
           <mxGeometry relative="1" as="geometry" />
